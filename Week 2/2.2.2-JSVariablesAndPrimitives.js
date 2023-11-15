@@ -30,9 +30,9 @@ wage = 75;
 satisfied = true;
 // use "console.log()" and "+" to print a sentence that includes two of the above variables
 console.log(
-  `Today I turned ` +
+  "Today I turned" +
     age +
-    ` and I was so excited I played my favorite song called` +
+    "and I was so excited I played my favorite song called" +
     favoriteSong +
-    `.`
+    "."
 );
