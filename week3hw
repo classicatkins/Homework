@@ -1,11 +1,14 @@
 // Create an array of pizzaToppings with at least four different toppings
-const pizzaToppings = ["Pepperoni", "Mushrooms", "Onions", "Green Peppers"];
+const pizzaToppings = ["pepperoni", "mushrooms", "onions", "peppers"];
 
 // Create a greetCustomer function that prints a message that welcomes a guest, then informs them of the available toppings by looping over pizzaToppings (don't worry about perfect grammar here yet, i.e. "a, b, and c", see Bonus Challenge #9)
 // i.e. "Welcome to Pizza House, our toppings are: a, b, c, ..."
 function greetCustomer() {
   let greeting = "Welcome to Pizza House, our toppings are: ";
   for (let i = 0; i < pizzaToppings.length; i++) {
+    if (i === pizzaToppings.length - 1 && i !== 0) {
+      greeting += "and ";
+    }
     greeting += pizzaToppings[i];
     if (i < pizzaToppings.length - 1) {
       greeting += ", ";
@@ -29,8 +32,6 @@ function getPizzaOrder(size, crust, ...toppings) {
         order += ", ";
       }
     }
-  } else {
-    order += "no additional toppings";
   }
 
   order += " Coming up!";
@@ -87,9 +88,9 @@ function servePizza(pizza) {
 let orderDetails = getPizzaOrder(
   "large",
   "thick",
-  "Pepperoni",
-  "Mushrooms",
-  "Green Peppers"
+  "pepperoni",
+  "mushrooms",
+  "peppers"
 );
 
 // Prepare the pizza
