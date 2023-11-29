@@ -1,0 +1,35 @@
+:root {
+  --font-family: "Onest", sans-serif;
+  --font-family-headline: "Onest", san-serif;
+  --font-size-1: clamp(10px, 1.2vw, 12px);
+  --font-size-2: clamp(12px, 1.2vw, 14px);
+  --font-size-3: clamp(14px, 1.2vw, 16px);
+  --font-size-4: clamp(16px, 1.2vw, 18px);
+  --font-size-5: clamp(19px, 1.2vw, 21px);
+  --font-size-6: clamp(25px, 1.2vw, 30px);
+  --font-size-7: clamp(28px, 1.2vw, 36px);
+  --font-size-8: clamp(36px, 1.2vw, 42px);
+
+  --radius-corner: 0.35rem;
+  --radius-corner-small: 0.28rem;
+
+
+
+
+--color-primary: #362047;
+--color-background: #FFFFF5;
+--color-features: #DDE8FB;
+--color-accent-blue: #DAE9FF;
+--color-accent-tan: #F9F5F2;
+
+--color-yellow:#FFCC14;
+/* #5BB400;
+#59B0FF;
+#FF852D;
+#E26BB3
+#FF7E63; */
+
+
+
+
+}
