@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full Stack Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
 </head>
 <body>
 
@@ -24,35 +25,105 @@
 <!-- About Section -->
 <section id="about">
     <h1>About Me</h1>
-    <p>
-        <!-- Brief about the developer -->
-    </p>
+    <div class="container">
+        <div class="box">
+            <h2>About Me</h2>
+            <img class="img-habit" src="img/melissa-circle.png" alt="photo of melissa">
+            <p>As a passionate and dedicated Full Stack Developer at Sketch Development Services, I specialize in creating innovative software solutions. Currently, I am contributing to development in Time Front, a key project utilizing technologies such as MongoDB, Vue, TypeScript, Playwright, and JavaScript. My role in this Agile environment involves not only coding but also contributing to the continuous improvement of our software, ensuring both efficiency and user satisfaction.</p>
+
+            <p>At Murray State University, where I earned a bachelor's degree in Music Education with a minor in Computer Science, I laid the foundation of my technical expertise. Beyond practical programming in Java, JavaScript, and C++, my studies delved into essential computer science concepts such as Object-Oriented Programming, Algorithms, and Data Structures. This rigorous academic training honed my analytical skills and provided a strong theoretical understanding that underpins my practical work.</p>
+
+            <p>I am committed to continuous learning and currently enhancing my skill set through the Savvy Coders' Full Stack Web Development course. Here, I am gaining hands-on experience in building advanced web applications using Node.js and JavaScript, further broadening my expertise in the field.</p>
+
+            <p>I am keen on exploring new opportunities in technology that challenge me and allow me to contribute to innovative solutions. Let’s connect to discuss how we can collaborate to drive technological advancement and innovation!</p>
+        </div>
 </section>
 
 <!-- Skills Section -->
 <section id="skills">
     <h2>Skills</h2>
-    <ul>
-        <!-- List of skills -->
-    </ul>
-</section>
+    <div class="row">
+        <!-- First Row of Lists -->
+        <div class="column">
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>Java</li>
+                <li>C++</li>
+                <li>TypeScript</li>
+                <li>Vue</li>
+                <li>Node.js</li>
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>HTML5</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Databases</h3>
+            <ul>
+                <li>MongoDB</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Source and Version Control</h3>
+            <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Second Row of Lists -->
+        <div class="column">
+            <h3>IDE</h3>
+            <ul>
+                <li>Visual Studio Code</li>
+                <li>JetBrains</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Project Management</h3>
+            <ul>
+                <li>Agile</li>
+                <li>Jira</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>Testing</h3>
+            <ul>
+                <li>Playwright</li>
+            </ul>
+        </div>
+    </div>
 
 <!-- Projects Section -->
 <section id="projects">
     <h2>Projects</h2>
-    <div>
-        <!-- Project 1 -->
-        <h3>Project Title</h3>
-        <p>Description</p>
-        <!-- Add more projects as needed -->
+    <div class="box">
+        <h2>Perpetua</h2>
+         <!-- todo: add link ex: visit here-->
+        <img class="img-habit" src="img/Perpetua Logo.png" alt="Perpetua Logo">
+        <p>Perpetua is a dynamic web application designed to provide users with a platform to create, monitor, and maintain their daily habits. This interactive, user-friendly interface is the result of a capstone project integrating HTML, CSS, and JavaScript.</p>
+
+        <p>Key features include habit creation, an interactive dashboard, habit tracking, a responsive design, progress analytics, custom reminders, and a user-friendly interface. Data persistence is achieved through JavaScript's local storage, ensuring tracking continues seamlessly.</p>
+
+        <p>This project serves as a testament to the power of web development technologies in creating practical, user-centric applications. It demonstrates proficiency in front-end development, emphasizing design thinking and user experience.</p>
     </div>
 </section>
 
 <!-- Experience Section -->
 <section id="experience">
     <h2>Experience</h2>
-    <div>
-        <!-- Experience details -->
+    <div class="box">
+        <h2>Sketch Development</h2>
+         <!-- todo: add link ex: visit here-->
+        <img class="img-habit" src="img/sketch.png" alt="Sketch Logo">
+        <p>Contributed to the development of Time Front, a software utilizing Vue, TypeScript, Playwright, and MongoDB. Time Front is designed to optimize consulting firms by organizing complex client engagements, creating and delivering invoices, tracking employee hours, and providing tenants with unprecedented insights and intelligence about their businesses.</p>
+
+        <p>Participated in "Sketch Days," where developers form teams to create technical projects over a week, enhancing learning and team-building. Projects included developing Agile Freedom, a game application using Rust, Vue, and TypeScript, teaching users agile principles. Another notable project involved integrating QuickBooks with Sketch Developments' invoicing software, Clifrd, using Intuit Developer and JavaScript.</p>
+
+        <p>Collaborated with team members in designing APIs, enhancing system interoperability and functionality.</p>
+
+        <p>Developed features for both mobile and desktop platforms in an Agile environment, enabling rapid iteration to meet client needs. This role involved conducting code reviews, debugging, and resolving issues, thereby contributing significantly to project success and client satisfaction.</p>
     </div>
 </section>
 
@@ -65,6 +136,37 @@
         <textarea name="message" placeholder="Your Message" required></textarea>
         <button type="submit">Send Message</button>
     </form>
+    <div class="connect-box">
+        <h2>Get in Contact</h2>
+        <div class="connect-column">
+          <h3>Connect</h3>
+          <div class="logos-container">
+            <div class="logo-group">
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/melissa-atkins03/" target="_blank" class="logo-link">
+                <span>LinkedIn</span>
+              </a>
+          </div>
+          <div class="logo-group">
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/classicatkins" target="_blank" class="logo-link">
+              <span>GitHub</span>
+            </a>
+          </div>
+          <div class="logo-group">
+            <i class="fa-regular fa-file"></i>
+            <!-- todo: fix link-->
+            <a href="https://www.linkedin.com/in/melissa-atkins03/" target="_blank" class="logo-link">
+              <span>Resume</span>
+            </a>
+          </div>
+          </div>
+      </div>
+      <div class="contact-column">
+          <h3>Contact</h3>
+          <p>matkins@duck.com</p>
+      </div>
+    </div>
 </section>
 
 <footer>
