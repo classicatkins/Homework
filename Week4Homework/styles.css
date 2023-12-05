@@ -34,6 +34,24 @@
 
 }
 
+nav ul li a .fa-bars {
+  display: none; /* Hide the hamburger icon on larger screens */
+}
+
+@media screen and (max-width: 600px) {
+  /* Hide all navigation items except the hamburger icon */
+  nav ul li:not(:last-child) {
+      display: none;
+  }
+
+  /* Show the hamburger icon */
+  nav ul li a .fa-bars {
+      display: block;
+      text-align: right;
+  }
+}
+
+
 .row {
   display: flex;
   justify-content: space-around;
